@@ -1,0 +1,14 @@
+select 
+bus.Business,
+coalesce(prem.StreetNo, '') as StreetNo,
+prem.Street, 
+prem.PostCode,
+sum(ff.Count) as FootfallCount
+from Premises prem with (NOLOCK)
+join Footfall ff with (NOLOCK) on prem.Id = ff.PremisesId 
+join Businesses bus with (NOLOCK) on prem.BusinessId = bus.Id 
+group by prem.id, bus.Business, prem.PostCode, prem.Street, prem.StreetNo
+
+
+(no need to include anything other than prem.id in non MS sql:
+https://stackoverflow.com/questions/4611897/group-by-aggregate-function-confusion-in-sql)
