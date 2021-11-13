@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringParsing", "StringParsing\StringParsing.csproj", "{C8AFEBE2-BD03-4E54-BDA2-423790786DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringParsing.UnitTests", "StringParsing.UnitTests\StringParsing.UnitTests.csproj", "{6EBD7110-7E27-471D-A101-18416332E32E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8AFEBE2-BD03-4E54-BDA2-423790786DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AFEBE2-BD03-4E54-BDA2-423790786DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AFEBE2-BD03-4E54-BDA2-423790786DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AFEBE2-BD03-4E54-BDA2-423790786DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBD7110-7E27-471D-A101-18416332E32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBD7110-7E27-471D-A101-18416332E32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBD7110-7E27-471D-A101-18416332E32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBD7110-7E27-471D-A101-18416332E32E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E012AE1-841D-4808-AB96-4D0BC9D7C1C7}
+	EndGlobalSection
+EndGlobal
